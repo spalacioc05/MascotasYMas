@@ -1,0 +1,14 @@
+Paleta de Colores:
+1. Azul Claro (#6CA6C1): Usado en el fondo principal donde se encuentra el texto.
+2. Naranja (#F79B4A): Usado en detalles, como la pelota y el contorno del botón.
+3. Beige/Crema (#FDF2E1): Color de fondo general de la imagen.
+4. Negro Profundo (#1C1C1C): Para el texto y detalles de contorno.
+5. Amarillo Claro (#FFC857): Usado en algunos detalles de los elementos gráficos.
+
+Fuentes:
+-Para el título ("MASCOTAS & MÁS")**:
+  - Fuente Estilo Sans Serif con Bordes Redondeados: Ejemplo: Fredoka One o Baloo.
+- Para el texto de cuerpo ("TE OFRECE", "Purgantes..."):
+  - Sans Serif Elegante y Clara: Ejemplo: Open Sans o Roboto.
+- Texto Destacado (número de contacto):
+  - Fuente con Negrita y Atractiva: Ejemplo: Poppins en negrita.
