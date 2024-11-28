@@ -1,0 +1,63 @@
+/* Estilos personalizados para la barra de filtro */
+.filter-bar {
+    margin-bottom: 1rem;
+}
+
+.filter-bar .btn {
+    margin-right: 0.5rem;
+}
+
+.filter-bar .btn:hover {
+    background-color: #4F91B3;
+    color: #fff;
+}
+
+.filter-bar .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(79, 145, 179, 0.25);
+}
+
+/* Estilos para la tabla de productos */
+.table {
+    font-size: 0.875rem; /* Tamaño de letra más pequeño */
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #f8f9fa; /* Fondo claro para el encabezado */
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Fondo claro al pasar el ratón */
+}
+
+.table img {
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    max-width: 50px;
+}
+
+.table .selectRow {
+    cursor: pointer;
+}
+
+.table .selected {
+    background-color: #d3d3d3; /* Color gris claro para filas seleccionadas */
+}
+
+/* Estilos para los modales */
+.modal-lg {
+    max-width: 80%;
+}
+
+/* Estilos para la vista previa de la imagen en los modales */
+.img-thumbnail2 {
+    max-width: 320px;
+    max-height: 320px;
+    display: block;
+    margin: 0 auto;
+}
