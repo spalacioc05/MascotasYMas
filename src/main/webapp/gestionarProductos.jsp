@@ -162,6 +162,31 @@
                             </tbody>
                         </table>
 
+                        <!-- Paginación -->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div>
+                                <label for="productosPorPagina" class="form-label">Productos por página:</label>
+                                <select class="form-select" id="productosPorPagina" style="width: auto; display: inline-block;">
+                                    <option value="10">10</option>
+                                    <option value="30">20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                    <option value="200">200</option>
+                                </select>
+                            </div>
+                            <nav>
+                                <ul class="pagination mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" id="prevPage">Anterior</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" id="nextPage">Siguiente</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div id="page-info" class="text-muted"></div>
+                        </div>
+
                         <!-- Formulario Modal de Editar -->
                         <div class="modal fade" id="editarProductoModal" tabindex="-1" aria-labelledby="editarProductoModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -238,30 +263,7 @@
                         </div>
                     </div>
 
-                    <!-- Paginación -->
-                    <div class="d-flex justify-content-between align-items-center mt-3">
-                        <div>
-                            <label for="productosPorPagina" class="form-label">Productos por página:</label>
-                            <select class="form-select" id="productosPorPagina" style="width: auto; display: inline-block;">
-                                <option value="10">10</option>
-                                <option value="30">20</option>
-                                <option value="50">50</option>
-                                <option value="100">100</option>
-                                <option value="200">200</option>
-                            </select>
-                        </div>
-                        <nav>
-                            <ul class="pagination mb-0">
-                                <li class="page-item">
-                                    <a class="page-link" href="#" id="prevPage">Anterior</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" id="nextPage">Siguiente</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div id="page-info" class="text-muted"></div>
-                    </div>
+
 
                 </div>
             </section>

@@ -117,34 +117,6 @@
                 </div>
             </section>
 
-
-            <!-- Team members section -->
-            <section class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="fw-bolder">Nuestro equipo</h2>
-                        <p class="lead fw-normal text-muted mb-5">Apasionados por la calidad y comprometidos con el bienestar de las mascotas.</p>
-                    </div>
-                    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                        <!-- Puedes agregar más miembros del equipo aquí -->
-                        <div class="col mb-5 mb-5 mb-xl-0">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="Miembro del equipo" />
-                                <h5 class="fw-bolder">Ana Pérez</h5>
-                                <div class="fst-italic text-muted">Fundadora & CEO</div>
-                            </div>
-                        </div>
-                        <div class="col mb-5 mb-5 mb-xl-0">
-                            <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="Miembro del equipo" />
-                                <h5 class="fw-bolder">Carlos Gómez</h5>
-                                <div class="fst-italic text-muted">Gerente de Operaciones</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <!-- Map section -->
             <section class="py-5">
                 <div class="container px-5 my-5">
@@ -166,13 +138,6 @@
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; MASCOTAS & MÁS 2023</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="contact.jsp">Contact</a>
-                    </div>
                 </div>
             </div>
         </footer>

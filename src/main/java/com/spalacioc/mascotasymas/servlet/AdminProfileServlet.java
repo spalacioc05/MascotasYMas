@@ -15,6 +15,7 @@ import com.spalacioc.mascotasymas.model.Persona;
 public class AdminProfileServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         Persona usuario = (Persona) session.getAttribute("usuario");

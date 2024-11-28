@@ -5,15 +5,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const productosTabla = document.getElementById('productosTabla');
     const pageInfo = document.getElementById('page-info');
 
-    let productos = Array.from(productosTabla.querySelectorAll('tr'));
+    let productos = Array.from(productosTabla.querySelectorAll('tbody tr'));
     let paginaActual = 1;
     let productosPorPagina = parseInt(productosPorPaginaSelect.value);
     let totalPages = Math.ceil(productos.length / productosPorPagina);
 
     function showPage(page) {
-        productos.forEach((producto, index) => {
-            producto.style.display = (index >= (page - 1) * productosPorPagina && index < page * productosPorPagina) ? '' : 'none';
+        const tbody = productosTabla.querySelector('tbody');
+        tbody.innerHTML = ''; // Limpiar el contenido del tbody
+
+        const start = (page - 1) * productosPorPagina;
+        const end = start + productosPorPagina;
+        const productosPagina = productos.slice(start, end);
+
+        productosPagina.forEach(producto => {
+            tbody.appendChild(producto);
         });
+
         pageInfo.textContent = `Página ${page} de ${totalPages}`;
     }
 
